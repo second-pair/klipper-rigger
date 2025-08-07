@@ -8,6 +8,11 @@
 1.  ???
 1.  PROFIT!
 
+##  Auto-updating with SSH
+`rsync -rltP --delete . <user>@<ip>:printer_data/config/klipper-rigger`
+
+Run it with '--dry-run' first in case you end up deleting a bunch of stuff.
+
 ##  Renaming
 If you'd like your config to live in a different folder, you have 2 routes:
 
